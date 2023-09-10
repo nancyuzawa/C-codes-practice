@@ -28,14 +28,14 @@ int main()
         bonificacao = salario * 12.0 / 100.0;
     }
     else{
-        bonificacao = 0.0f;
+        bonificacao = 0.0;
     }
 
     if (salario <=600.0f){
-            auxilio = 150.00f;
+            auxilio = 150.00;
         }
      else{
-            auxilio = 100.00f;
+            auxilio = 100.00;
         }
 
     novoSalario = salario + bonificacao + auxilio;

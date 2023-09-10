@@ -16,14 +16,14 @@ int main()
     printf("Salario: R$ ");
     scanf("%f", &salario);
 
-    if (salario <500,00){
-        aumento = salario * 5 / 100;
+    if (salario <500.00){
+        aumento = salario * 5.0 / 100;
     }
-    else if (salario >= 500,00 || salario <=850,00){
-        aumento = salario * 10 / 100;
+    else if (salario >= 500.00 && salario <= 850.00){
+        aumento = salario * 10.0 / 100;
     }
     else{
-        aumento = salario * 15 / 100;
+        aumento = salario * 15.0 / 100;
     }
 
     printf("\nAumento          R$ %.2f", aumento);

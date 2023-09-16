@@ -23,6 +23,7 @@ int main()
 
             resultado = num1 + num2;
             printf("\nResultado: %.2f", resultado);
+            system("pause");
             break;
         case 2:
             printf("2- Subtração");
@@ -33,6 +34,7 @@ int main()
 
             resultado = num1 - num2;
             printf("\nResultado: %.2f", resultado);
+            system("pause");
             break;
         case 3:
             printf("3- Multiplicação");
@@ -43,6 +45,7 @@ int main()
 
             resultado = num1 * num2;
             printf("\nResultado: %.2f", resultado);
+            system("pause");
             break;
         case 4:
             printf("4- Divisão");
@@ -53,9 +56,11 @@ int main()
 
             resultado = num1 / num2;
             printf("\nResultado: %.2f", resultado);
+            system("pause");
             break;
         default:
             printf("Opção inválida!");
+            system("pause");
     }
     return 0;
 }

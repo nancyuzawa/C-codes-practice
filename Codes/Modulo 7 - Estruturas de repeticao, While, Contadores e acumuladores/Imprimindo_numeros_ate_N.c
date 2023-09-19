@@ -12,7 +12,7 @@ int main()
 
     printf("Digite um número: ");
     scanf("%d", &num);
-    printf("\nSequência: ");
+    printf("\nSequência crescente: ");
 
     while(contador <= num){
         printf("%d, ", contador);
